@@ -1,5 +1,10 @@
 body {
+<<<<<<< HEAD
     background-color: #000
+=======
+	background-image: url("images/frontpage.JPG");
+	margin: 5;
+>>>>>>> origin/master
 }
 
 .container {
@@ -121,6 +126,7 @@ input:checked + .slide-container .nav label { display: block; }
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+<<<<<<< HEAD
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
@@ -129,3 +135,6 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: rgba(0, 0, 0, 0.8);
 }
+=======
+}
+>>>>>>> origin/master
