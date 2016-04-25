@@ -14,10 +14,11 @@ body {
 }
 header {
     background-color: #6D7275;
-    padding: 1px;
+    padding: 0px;
     text-align: center;
-    width: 925px;
+    width: 899px;
     margin: 0 auto;
+    border: 3px inset;
 }
 
 .links li {
@@ -33,8 +34,8 @@ li a {
 
 .slides {
     padding: 0;
-    width: 930px;
-    height: 625px;
+    width: 900px;
+    height: 595px;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -140,6 +141,12 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    color: #C20114;
+    text-align: center;
+    font-family: Copperplate;
 }
 /*}
 =======
