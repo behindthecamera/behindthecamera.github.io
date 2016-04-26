@@ -4,7 +4,63 @@
 	<meta charset="utf-8">
 	<title>behindthecamera/bookme</title>
 	<link rel="stylesheet" type="text/css" href="book.css">
+</head>
 <body>
-
+	<div class="container">
+		<main>
+			<header class="links">
+				<h4>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="albums.html">Portfolio</a></li>
+							<li><a href="book.html">Book Me!</a></li>
+							<li><a href="aboutme.html">Behind Her Camera</a></li>
+						</ul>
+					</nav>
+				</h4>
+			</header>
+		<div id="contact">
+		<h2>Book Us! Send An E-mail To Recieve A Quote!</h2>
+			<fieldset>
+				<legend>Please Fill The Following Form To Contact Me</legend>
+				<form action="MAILTO:monica.quil.54@gmail.com" method="post" enctype="text/plain">
+					<label for="name"> 
+						<span class="required">*</span>
+						Your Name:
+					</label>
+						<input type="text" name="name">
+						<br>
+					<label for="email">
+						<span class="required">*</span>
+						E-mail:
+					</label>
+						<input name="email" type="text">
+						<br>
+					<label for="phone" accesskey=P>
+						<span class="required">*</span>
+						Phone:
+					</label>
+            			<input name="phone" type="text">
+           				<br>
+					<label for=subject accesskey=S>
+						<span class="required">*</span>
+						Subject:
+					</label>
+            			<select name="subject" type="text" id="subject">
+              				<option value="Quote">Quote</option>
+              				<option value="Sales">Sale</option>
+             				<option value="Hey">Being Friendly</option>
+            			</select>
+						<br />
+					<textarea name="message" rows="13" cols="45">Describe What You Are Looking For In As Much Detail As Possible.
+					</textarea><br>
+					<input type="submit" value="Submit">
+				</form>
+			</fieldset>
+		</div>
+	</main>
+	<footer>behindthecamera.<sup>TM</sup></footer>
+</div>
 </body>
 </html>
